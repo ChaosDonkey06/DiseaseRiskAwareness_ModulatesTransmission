@@ -103,15 +103,15 @@ In order to visualize the networks you will need to specify the `network_type` (
 
 Plotting a heatmap means you have runned simulations over a range of values for `beta` and `sigma`. Hence, `beta_search.csv` and `sigma_search.csv` had to be modified previously. The values that will be considered by the function for plotting are the same already specified on the `/param_search` files. The `network_type`, `network_name`, `num_nodes`, `type_sim` and `type_hm` parameters need to be specified. The later defines weather the heatmap if ploted using *beta* of *R0* in their *y* axis. An example is displayed as follows:
 
-    python plots/plot_heatmaps.py --network_type scale_free --network_name --scale_free_5000 --num_nodes 5000 --type_sim local --type_hm R0
-    python plots/plot_heatmaps.py --network_type scale_free --network_name --scale_free_5000 --num_nodes 5000 --type_sim global --type_hm R0
+    python plots/plot_heatmaps.py --network_type scale_free --network_name scale_free_5000 --num_nodes 5000 --type_sim local --type_hm R0
+    python plots/plot_heatmaps.py --network_type scale_free --network_name scale_free_5000 --num_nodes 5000 --type_sim global --type_hm R0
 
 #### Disease and behavior dynamics over networks
 
 In order to plot the temporal dynamics of the simulation, there are few things to consider. Each figure is created for a specific *beta* and a set of *sigmas*. These values need to be specified in the `beta_plot.csv` and `sigma_plot.csv` files found in the `/plots/params_plot` folder. Thee defauld values are the ones used in the paper figures. We recommend to plot only 3 values of *sigma* per *beta* for best visualization, and only call the function for a set of parameters (leaving only one value of *beta* in `beta_plot.csv`). The `network_type`, `network_name`, `num_nodes`, and `type_hm` need to be specified. For visualizing the plot presented in our paper, run:
 
-    python plots/plot_dynamics.py --network_type scale_free --network_name --scale_free_5000 --num_nodes 5000 --type_hm R0
-    python plots/plot_dynamics.py --network_type scale_free --network_name --scale_free_5000 --num_nodes 5000 --type_hm R0
+    python plots/plot_dynamics.py --network_type scale_free --network_name scale_free_5000 --num_nodes 5000 --type_hm R0
+    python plots/plot_dynamics.py --network_type scale_free --network_name scale_free_5000 --num_nodes 5000 --type_hm R0
 
 #### Clustered dynamics over a scale-free network
 
