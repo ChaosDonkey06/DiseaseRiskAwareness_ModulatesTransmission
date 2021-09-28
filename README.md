@@ -1,6 +1,8 @@
 # How disease risk awareness modulates transmission: coupling infectious disease models with behavioral dynamics
 Code for the preprint https://t.co/cwj59tO9XP?amp=1
+
 𝗧𝗶𝘁𝗹𝗲: How disease risk awareness modulates transmission: coupling infectious disease models with behavioral dynamics.
+
 𝗔𝘂𝘁𝗵𝗼𝗿𝘀: Jaime Cascante-Vega, Samuel Torres-Florez, Juan Cordovez, Mauricio Santos-Vega
 
 ## Dependencies
