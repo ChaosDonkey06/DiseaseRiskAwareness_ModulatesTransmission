@@ -5,6 +5,8 @@ Code for the preprint https://t.co/cwj59tO9XP?amp=1
 
 𝗔𝘂𝘁𝗵𝗼𝗿𝘀: Jaime Cascante-Vega, Samuel Torres-Florez, Juan Cordovez, Mauricio Santos-Vega
 
+𝗔ffiliation: Grupo de Biología y Matemática Computacional (Universidad de los Andes, Bogotá D.C. Colombia)
+
 ## Dependencies
     python 3.7
     pandas
